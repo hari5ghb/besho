@@ -5,3 +5,13 @@
     font-style: normal;
   
 }
+/* Hide scrollbar but keep page scrollable */
+body {
+  overflow: scroll; /* Allow scrolling */
+  height: 100%; /* Ensure body takes full height */
+  width: 100%; /* Ensure body takes full width */
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

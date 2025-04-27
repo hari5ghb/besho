@@ -2,9 +2,10 @@
 
 .slider-container {
     width: 100vw;
-    height: 600px;
+    height: 710px;
     overflow: hidden;
     position: relative;
+    top:110px;
   }
   
   .slider-image {
