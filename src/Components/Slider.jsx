@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './slider.css';
+import './Slider.css';
 
 import slide1 from '../assets/img1.jpg';
 import slide2 from '../assets/img6.jpg';
