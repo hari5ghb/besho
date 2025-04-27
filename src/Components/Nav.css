@@ -1,0 +1,51 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    height: 100px;
+   
+}
+
+.logo{
+    width: auto;
+    height: auto;
+  }
+.logo img {
+    width: 340px; /* Adjust the width as needed */
+    height: 340px; 
+   position: relative;
+   right:90px;
+}
+
+.nav-links{
+    display: flex;
+    gap: 25px;
+    margin: 5px;
+
+}
+.nav li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+.nav-links a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: 1px solid transparent; /* Invisible border initially */
+    box-sizing: border-box;
+    display: inline-block; /* Ensure the a tag behaves like a block for scaling */
+    transition: transform 0.3s ease, border 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+}
+
+.nav-links a:hover {
+    border: 1px solid rgb(47, 211, 47); /* Green border on hover */
+    border-radius: 5px;
+    transform: scale(1.05); /* Scale the element slightly */
+  
+}
+
+
+
