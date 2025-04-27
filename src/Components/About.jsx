@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import './About.css';
+import '../Styles/About.css';
 
 const contentSections = [
   {
