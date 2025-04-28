@@ -100,11 +100,11 @@
         flex-direction: column;
         align-items: center;
         position: fixed;
-        top: 80px; /* After the navbar */
+        top: 70px; /* After the navbar */
         left: 40%;
         transform: translateX(-50%);
-        width: 100%;
-        background: rgb(60, 60, 60);
+        width: 110%;
+        background: rgb(255, 226, 226);
         border-top: 1px solid #000000;
         display: none; /* Hide by default */
         z-index: 1000;
